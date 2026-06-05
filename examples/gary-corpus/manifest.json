@@ -1,0 +1,284 @@
+{
+  "books": {
+    "artificialintelligenceforcybersecurity": {
+      "title": "Artificial Intelligence for Cybersecurity",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "asynchronousprogramminginrust": {
+      "title": "Asynchronous Programming in Rust",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "azureai-102certificationessentials": {
+      "title": "Azure AI-102 Certification Essentials",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "bayesiananalysiswithpython_thirdedition": {
+      "title": "Bayesian Analysis with Python, 3rd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "bishop-prml": {
+      "title": "Pattern Recognition and Machine Learning (Bishop)",
+      "domain": "advanced-ml",
+      "rerank_input": "heading"
+    },
+    "boneh-shoup-applied-cryptography": {
+      "title": "Applied Cryptography (Boneh & Shoup)",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "causalinferenceanddiscoveryinpython": {
+      "title": "Causal Inference and Discovery in Python",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "creativeprojectsforrustprogrammers": {
+      "title": "Creative Projects for Rust Programmers",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "crypto-101": {
+      "title": "Crypto 101",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "cuda-programming-guide": {
+      "title": "NVIDIA CUDA C++ Programming Guide",
+      "domain": "advanced-ml",
+      "rerank_input": "heading"
+    },
+    "d2l-en": {
+      "title": "Dive into Deep Learning",
+      "domain": "advanced-ml",
+      "rerank_input": "heading"
+    },
+    "database-design-2nd-ed": {
+      "title": "Database Design, 2nd Edition",
+      "domain": "databases",
+      "rerank_input": "child"
+    },
+    "deepreinforcementlearninghands-on_thirdedition": {
+      "title": "Deep Reinforcement Learning Hands-On, 3rd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "designing-distributed-systems": {
+      "title": "Designing Distributed Systems",
+      "domain": "distributed-systems",
+      "rerank_input": "child"
+    },
+    "designpatternsandbestpracticesinrust": {
+      "title": "Design Patterns and Best Practices in Rust",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "digitalocean-redis": {
+      "title": "DigitalOcean Redis Guide",
+      "domain": "databases",
+      "rerank_input": "child"
+    },
+    "distributed-systems-fun-profit": {
+      "title": "Distributed Systems for Fun and Profit",
+      "domain": "distributed-systems",
+      "rerank_input": "child"
+    },
+    "gamedevelopmentwithrustandwebassembly": {
+      "title": "Game Development with Rust and WebAssembly",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "graphmachinelearning_secondedition": {
+      "title": "Graph Machine Learning, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "hands-onartificialintelligenceforiot_secondedition": {
+      "title": "Hands-On AI for IoT, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "hands-onconcurrencywithrust": {
+      "title": "Hands-On Concurrency with Rust",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "hands-onmachinelearningwithcplusplus_secondedition": {
+      "title": "Hands-On Machine Learning with C++, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "joy-of-cryptography": {
+      "title": "The Joy of Cryptography",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "kagglebook_secondedition": {
+      "title": "Kaggle Book, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "lbdl": {
+      "title": "The Little Book of Deep Learning (Fleuret)",
+      "domain": "advanced-ml",
+      "rerank_input": "heading"
+    },
+    "little-redis-book": {
+      "title": "The Little Redis Book",
+      "domain": "databases",
+      "rerank_input": "child"
+    },
+    "machinelearningengineeringwithpython_secondedition": {
+      "title": "Machine Learning Engineering with Python, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "machinelearningforalgorithmictradingsecondedition": {
+      "title": "Machine Learning for Algorithmic Trading, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "machinelearningwithpytorchandscikit-learn": {
+      "title": "Machine Learning with PyTorch and Scikit-Learn",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "masteringpytorch_secondedition": {
+      "title": "Mastering PyTorch, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "mathematicsofmachinelearning": {
+      "title": "Mathematics of Machine Learning",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "moderntimeseriesforecastingwithpython_secondedition": {
+      "title": "Modern Time Series Forecasting with Python, 2nd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "oauth-rfcs-book": {
+      "title": "OAuth RFCs Book",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "owasp-asvs-v5": {
+      "title": "OWASP ASVS v5",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "owasp-cheat-sheets": {
+      "title": "OWASP Cheat Sheet Series",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "owasp-developer-guide": {
+      "title": "OWASP Developer Guide",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "owasp-wstg-v4.2": {
+      "title": "OWASP Web Security Testing Guide v4.2",
+      "domain": "security",
+      "rerank_input": "child"
+    },
+    "pandascookbook_thirdedition": {
+      "title": "Pandas Cookbook, 3rd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "postgresql-14-internals": {
+      "title": "PostgreSQL 14 Internals",
+      "domain": "databases",
+      "rerank_input": "child"
+    },
+    "postgresql-internals-interdb": {
+      "title": "The Internals of PostgreSQL (Suzuki)",
+      "domain": "databases",
+      "rerank_input": "child"
+    },
+    "practicalsystemprogrammingforrustdevelopers": {
+      "title": "Practical System Programming for Rust Developers",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "probml-advanced": {
+      "title": "Probabilistic Machine Learning: Advanced Topics (Murphy)",
+      "domain": "advanced-ml",
+      "rerank_input": "heading"
+    },
+    "probml-intro": {
+      "title": "Probabilistic Machine Learning: An Introduction (Murphy)",
+      "domain": "advanced-ml",
+      "rerank_input": "heading"
+    },
+    "production-rag-guide": {
+      "title": "Production RAG Guide",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "pythonmachinelearningbyexample_fourthedition": {
+      "title": "Python Machine Learning by Example, 4th Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "redis-for-dummies": {
+      "title": "Redis for Dummies",
+      "domain": "databases",
+      "rerank_input": "child"
+    },
+    "rust_ebook": {
+      "title": "Rust Programming (Nouman Azam)",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "rustforblockchainapplicationdevelopment": {
+      "title": "Rust for Blockchain Application Development",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "rustforcplusplusdeveloper": {
+      "title": "Rust for C++ Developers",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "rustprogramminghandbook": {
+      "title": "The Rust Programming Handbook",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "rustwebdevelopmentwithrocket": {
+      "title": "Rust Web Development with Rocket",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "rustwebprogramming": {
+      "title": "Rust Web Programming",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "scikit-learncookbook_thirdedition": {
+      "title": "Scikit-Learn Cookbook, 3rd Edition",
+      "domain": "applied-ml",
+      "rerank_input": "heading"
+    },
+    "speedupyourpythonwithrust": {
+      "title": "Speed Up Your Python with Rust",
+      "domain": "rust",
+      "rerank_input": "heading"
+    },
+    "understanding-deep-learning": {
+      "title": "Understanding Deep Learning (Prince)",
+      "domain": "advanced-ml",
+      "rerank_input": "heading"
+    },
+    "use-the-index-luke": {
+      "title": "Use The Index, Luke \u2014 SQL Indexing",
+      "domain": "databases",
+      "rerank_input": "child"
+    }
+  }
+}

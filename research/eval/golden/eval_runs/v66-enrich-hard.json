@@ -1,0 +1,165 @@
+{
+  "report": {
+    "label": "v66-enrich-hard",
+    "n_queries": 440,
+    "aggregate": {
+      "ndcg": 0.7699,
+      "recall10": 0.9682,
+      "mrr": 0.8679,
+      "recall_ceiling": 0.9864
+    },
+    "per_domain": {
+      "databases": {
+        "n": 17,
+        "ndcg": 0.6053,
+        "recall10": 0.7647,
+        "mrr": 0.6118,
+        "recall_ceiling": 0.8824
+      },
+      "distributed": {
+        "n": 7,
+        "ndcg": 0.9211,
+        "recall10": 1.0,
+        "mrr": 0.9286,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 216,
+        "ndcg": 0.7772,
+        "recall10": 0.9722,
+        "mrr": 0.8675,
+        "recall_ceiling": 0.9861
+      },
+      "rust": {
+        "n": 134,
+        "ndcg": 0.7821,
+        "recall10": 0.9925,
+        "mrr": 0.9138,
+        "recall_ceiling": 1.0
+      },
+      "security": {
+        "n": 66,
+        "ndcg": 0.7475,
+        "recall10": 0.9545,
+        "mrr": 0.8359,
+        "recall_ceiling": 0.9848
+      }
+    },
+    "per_archetype": {
+      "baseline": {
+        "n": 200,
+        "ndcg": 0.7647,
+        "recall10": 0.965,
+        "mrr": 0.8389,
+        "recall_ceiling": 0.99
+      },
+      "error_symbol": {
+        "n": 80,
+        "ndcg": 0.7938,
+        "recall10": 0.9875,
+        "mrr": 0.9177,
+        "recall_ceiling": 1.0
+      },
+      "keyword": {
+        "n": 80,
+        "ndcg": 0.7907,
+        "recall10": 0.9875,
+        "mrr": 0.9358,
+        "recall_ceiling": 0.9875
+      },
+      "navigational": {
+        "n": 80,
+        "ndcg": 0.738,
+        "recall10": 0.9375,
+        "mrr": 0.8228,
+        "recall_ceiling": 0.9625
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "Why does my secure messaging handshake fail after I decrypt the first message, even though the certificate chain looks okay?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "What kind of throughput and response times can I expect from a production-grade in-memory data store when running with full transaction safety guarantees?",
+      "book": "redis-for-dummies",
+      "domain": "databases",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I make PostgreSQL avoid scanning the entire index when I only query the second column of a multi-column index, by breaking it into separate lookups for each unique value in the first column?",
+      "book": "postgresql-14-internals",
+      "domain": "databases",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do you handle object creation in Rust when you want to avoid exposing constructors directly, like using a static method on a type instead of a standalone function?",
+      "book": "designpatternsandbestpracticesinrust",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my Diffie-Hellman key exchange become insecure if the group generator doesn't generate the entire group?",
+      "book": "joy-of-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "How many data points are typically sampled to keep the nearest neighbor calculations from being too expensive when measuring how much two features share?",
+      "book": "machinelearningforalgorithmictradingsecondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "How can I find all the comparison operators that PostgreSQL uses internally for B-tree indexes when sorting integers with the less-than operation?",
+      "book": "postgresql-14-internals",
+      "domain": "databases",
+      "in_ceiling": false
+    },
+    {
+      "query": "mac not prf",
+      "book": "joy-of-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "which section covers Bloom filters in BRIN",
+      "book": "postgresql-14-internals",
+      "domain": "databases",
+      "in_ceiling": false
+    },
+    {
+      "query": "which chapter covers alternative trading systems",
+      "book": "machinelearningforalgorithmictradingsecondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "where is the index for dot product",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "where is the index for part 9",
+      "book": "causalinferenceanddiscoveryinpython",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "which chapter covers causal ML agents",
+      "book": "causalinferenceanddiscoveryinpython",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "`mean_squared_error` vs `r2_score`",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": true
+    }
+  ]
+}

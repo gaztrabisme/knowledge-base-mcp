@@ -1,0 +1,315 @@
+{
+  "report": {
+    "label": "norr-gemma-rawnaive",
+    "n_queries": 200,
+    "aggregate": {
+      "ndcg": 0.6049,
+      "recall10": 0.78,
+      "mrr": 0.5495,
+      "recall_ceiling": 0.93
+    },
+    "per_domain": {
+      "databases": {
+        "n": 13,
+        "ndcg": 0.7097,
+        "recall10": 0.8462,
+        "mrr": 0.6648,
+        "recall_ceiling": 1.0
+      },
+      "distributed": {
+        "n": 6,
+        "ndcg": 0.5718,
+        "recall10": 0.6667,
+        "mrr": 0.5417,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 89,
+        "ndcg": 0.6138,
+        "recall10": 0.8202,
+        "mrr": 0.549,
+        "recall_ceiling": 0.9438
+      },
+      "rust": {
+        "n": 56,
+        "ndcg": 0.6099,
+        "recall10": 0.7857,
+        "mrr": 0.5532,
+        "recall_ceiling": 0.9107
+      },
+      "security": {
+        "n": 36,
+        "ndcg": 0.5428,
+        "recall10": 0.6667,
+        "mrr": 0.5047,
+        "recall_ceiling": 0.8889
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "When is it okay for a distributed system to return a quick, approximate result instead of spending extra resources to guarantee exact correctness?",
+      "book": "distributed-systems-fun-profit",
+      "domain": "distributed",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my reinforcement learning agent's update rule involve multiplying the log probability of each action by the total reward collected from that point onward, and then adding those together?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why would a simple image-generating neural network with only dense layers use a modified ReLU activation and a random neuron-dropping technique during training?",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my trait method need to return different custom types depending on the implementation, and how do I set that up without locking all implementations into one return type?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my secure messaging handshake fail after I decrypt the first message, even though the certificate chain looks okay?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why do some language models only look at left-to-right context while others use both directions, and how does that change what they’re good at after you train them on a generic text corpus?",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How many parameters does the latest GPT model have, based on what was rumored when it first came out?",
+      "book": "machinelearningengineeringwithpython_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my form field lose the user's typed input when the page refreshes, and how do I keep it?",
+      "book": "creativeprojectsforrustprogrammers",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my reinforcement learning agent’s update rule sum the gradient of the log probability of each action times the total future reward from that point onward?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I prevent an attacker from tricking my app into using their stolen login token instead of the real user's token when the browser redirects back to my site?",
+      "book": "oauth-rfcs-book",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "What kind of throughput and response times can I expect from a production-grade in-memory data store when running with full transaction safety guarantees?",
+      "book": "redis-for-dummies",
+      "domain": "databases",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can someone figure out a hidden string one character at a time if they can make a system encrypt their own input placed right before that secret, and compare the encrypted outputs?",
+      "book": "crypto-101",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "How can I make sure my machine learning experiments give the same results every time I run them, across different libraries?",
+      "book": "kagglebook_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I reduce the public key size in a Lamport one-time signature scheme without sacrificing security?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my machine learning model get slower to make predictions the more training data I add, even though it's great at adapting to new examples?",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Where can I get the example code and environment setup steps for the second chapter of that graph machine learning book?",
+      "book": "graphmachinelearning_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my lock-free stack implementation hang when I try to register a new thread-local safe memory reclamation handle with the shared coordinator?",
+      "book": "hands-onconcurrencywithrust",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why can't I just rely on my model's accuracy on the data I trained it on, and how do I actually check if it will work on new, unseen examples?",
+      "book": "graphmachinelearning_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I make my Rust program's main function able to call `.await` on async functions without getting a \"cannot block\" error?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does a long-running computation inside an async function freeze my entire web server and stop it from accepting new connections?",
+      "book": "asynchronousprogramminginrust",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How can I find all the comparison operators that PostgreSQL uses internally for B-tree indexes when sorting integers with the less-than operation?",
+      "book": "postgresql-14-internals",
+      "domain": "databases",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my reinforcement learning model for Atari games keep crashing when I try to use the same image-processing layers for both deciding what action to take and estimating how good the current situation is?",
+      "book": "deepreinforcementlearninghands-on_thirdedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my OAuth token validation endpoint keep failing because the IANA registry won't accept the custom metadata name I'm trying to register?",
+      "book": "oauth-rfcs-book",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my Rust code compile fine when I pass two references to a function that returns one of them, but I get confused about how long those references need to stay alive?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does adding just one more cache server sometimes cause almost all of my cached data to become invalid or need to be remapped, and how can I avoid that massive redistribution?",
+      "book": "designing-distributed-systems",
+      "domain": "distributed",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my encryption sometimes map a value to itself, and should I be worried that this means my cipher is broken?",
+      "book": "crypto-101",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does temporarily pulling a value out of a struct with `Option::take` to work around ownership issues risk accidentally leaving the struct in a broken state, and how can I guard against that?",
+      "book": "gamedevelopmentwithrustandwebassembly",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does the security proof for a hash function's internal state collision fail when two different inputs end up with the same internal value at the last mixing step, assuming both sequences are as short as possible and don't revisit earlier states?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I wrap an expression with multiple layers of behavior (like logging how long evaluation takes and checking if the result falls within allowed limits) in Rust, where one of those layers can actually turn a successful result into an error?",
+      "book": "designpatternsandbestpracticesinrust",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "In a security proof for a public-key encryption scheme where the encryption is followed by a zero-knowledge proof, what kinds of requests can an attacker make to the challenger before receiving the challenge ciphertext?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does Rust manage memory safely without needing a garbage collector or reference counting at runtime?",
+      "book": "rustforblockchainapplicationdevelopment",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do scikit-learn's internal data-passing components decide which model gets what information when chaining steps together in a pipeline?",
+      "book": "scikit-learncookbook_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I set up my training loop to automatically log loss and performance numbers every 100 steps into TensorBoard, using a deep learning framework that has built-in metric tracking?",
+      "book": "deepreinforcementlearninghands-on_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why do some secure multi-party computation protocols require a one-time setup where a third party generates and distributes random data to the two main participants, even though that third party never takes part in the actual computation?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does generating a fake execution trace for a secret-sharing protocol ensure that an attacker who controls some of the participants still learns nothing about the hidden value?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why would it be bad to have my async code start running immediately when I create it, instead of waiting until I actually await it?",
+      "book": "asynchronousprogramminginrust",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why do the preprocessing layers I apply to my game environment sometimes slow down training or prevent my agent from learning properly?",
+      "book": "deepreinforcementlearninghands-on_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "What are the current minimum recommended settings for hashing passwords with different algorithms, specifically how many iterations for older methods and how much memory for newer ones?",
+      "book": "owasp-asvs-v5",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does using the encryption key as the initialization vector in a cipher block chaining mode allow an attacker to recover the key by flipping bits in the ciphertext and comparing the decrypted blocks?",
+      "book": "crypto-101",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my Rust function that prints struct fields not need to take ownership, and how do I pass a read-only reference to avoid modifying the original data?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I save a table with columns like names and birth years into a file and then reload it back into a Python dictionary without losing the list structure?",
+      "book": "pandascookbook_thirdedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do you ensure your reinforcement learning agent tries all possible actions when estimating how good each action is from a given state, if some actions never get chosen during random gameplay?",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I make the server force a user's browser to log out by sending back a page that automatically clears their session token and redirects them?",
+      "book": "rustwebprogramming",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "What are the biggest blind spots or bad habits that beginners in machine learning competitions tend to have, which only become obvious after they've gained more experience?",
+      "book": "kagglebook_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    }
+  ]
+}

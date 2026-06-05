@@ -1,0 +1,60 @@
+{"query": "Why is all the math behind AI just linear algebra, calculus, and probability under the hood, and why does solving systems of linear equations matter so much for modern machine learning?", "child_id": "mathematicsofmachinelearning-p66-c1", "deepseek_grade": 1, "idx": 0}
+{"query": "`std::ptr::write` stack alignment", "child_id": "asynchronousprogramminginrust-p62-c3", "deepseek_grade": 2, "idx": 1}
+{"query": "kusama governance model", "child_id": "rustforblockchainapplicationdevelopment-p200-c4", "deepseek_grade": 0, "idx": 2}
+{"query": "`pd.read_parquet`", "child_id": "pandascookbook_thirdedition-p53-c6", "deepseek_grade": 0, "idx": 3}
+{"query": "What key factor, besides the availability of large labeled datasets like ImageNet, enabled deep learning models to be trained in a reasonable time by parallelizing matrix operations across all neurons in a layer?", "child_id": "hands-onmachinelearningwithcplusplus_secondedition-p202-c1", "deepseek_grade": 2, "idx": 4}
+{"query": "How do I include a length scale (ℓ) and a scale parameter (η) in a Gaussian process model with a custom ExpQuadHaversine kernel for spatial regression?", "child_id": "bayesiananalysiswithpython_thirdedition-p120-c2", "deepseek_grade": 0, "idx": 5}
+{"query": "What key factor, besides the availability of large labeled datasets like ImageNet, enabled deep learning models to be trained in a reasonable time by parallelizing matrix operations across all neurons in a layer?", "child_id": "kagglebook_secondedition-p123-c0", "deepseek_grade": 2, "idx": 6}
+{"query": "bayes factor interpretation table", "child_id": "bayesiananalysiswithpython_thirdedition-p83-c0", "deepseek_grade": 1, "idx": 7}
+{"query": "which chapter covers terminal I/O in Rust", "child_id": "practicalsystemprogrammingforrustdevelopers-p11-c10", "deepseek_grade": 2, "idx": 8}
+{"query": "How do I download, compile, and start the Redis server from source on Linux or macOS?", "child_id": "redis-for-dummies-p10-c7", "deepseek_grade": 1, "idx": 9}
+{"query": "How do I apply to become an author for Packt Publishing?", "child_id": "azureai-102certificationessentials-p199-c0", "deepseek_grade": 2, "idx": 10}
+{"query": "`TreiberStack`", "child_id": "machinelearningwithpytorchandscikit-learn-p103-c4", "deepseek_grade": 0, "idx": 11}
+{"query": "Why do older machine learning models like logistic regression and SVMs still get used in production even though deep learning is more powerful?", "child_id": "artificialintelligenceforcybersecurity-p147-c0", "deepseek_grade": 0, "idx": 12}
+{"query": "where are unit-like structs defined", "child_id": "rustprogramminghandbook-p60-c1", "deepseek_grade": 0, "idx": 13}
+{"query": "`Vec::new`", "child_id": "rustprogramminghandbook-p179-c2", "deepseek_grade": 1, "idx": 14}
+{"query": "`update_momentum` backprop implementation", "child_id": "machinelearningforalgorithmictradingsecondedition-p340-c3", "deepseek_grade": 0, "idx": 15}
+{"query": "How do I prevent an attacker from tricking my app into using their stolen login token instead of the real user's token when the browser redirects back to my site?", "child_id": "oauth-rfcs-book-p29-c3", "deepseek_grade": 1, "idx": 16}
+{"query": "How does the Merkle-Damgård construction pad the input before processing it in fixed-size blocks?", "child_id": "boneh-shoup-applied-cryptography-p254-c3", "deepseek_grade": 1, "idx": 17}
+{"query": "which chapter covers terminal I/O in Rust", "child_id": "rust_ebook-p50-c1", "deepseek_grade": 0, "idx": 18}
+{"query": "where are the technical requirements", "child_id": "rustwebdevelopmentwithrocket-p117-c0", "deepseek_grade": 2, "idx": 19}
+{"query": "How do I update the `previous` and `next` pointers when adding a new head to a doubly linked list using `borrow_mut()`?", "child_id": "rust_ebook-p351-c2", "deepseek_grade": 1, "idx": 20}
+{"query": "isolationforest anomalyscore c++ dlib", "child_id": "hands-onmachinelearningwithcplusplus_secondedition-p95-c1", "deepseek_grade": 0, "idx": 21}
+{"query": "auth server file structure", "child_id": "rustwebprogramming-p194-c0", "deepseek_grade": 2, "idx": 22}
+{"query": "where is Option defined", "child_id": "rust_ebook-p93-c0", "deepseek_grade": 1, "idx": 23}
+{"query": "where is one-hot encoding with pd.get_dummies explained", "child_id": "machinelearningforalgorithmictradingsecondedition-p123-c1", "deepseek_grade": 2, "idx": 24}
+{"query": "What is the key difference between bagging and boosting in terms of how individual algorithms are built?", "child_id": "hands-onmachinelearningwithcplusplus_secondedition-p166-c5", "deepseek_grade": 2, "idx": 25}
+{"query": "which section covers graph properties", "child_id": "graphmachinelearning_secondedition-p219-c27", "deepseek_grade": 0, "idx": 26}
+{"query": "`common.calc_loss_dqn`", "child_id": "deepreinforcementlearninghands-on_thirdedition-p114-c4", "deepseek_grade": 2, "idx": 27}
+{"query": "kaggle evaluation metrics", "child_id": "kagglebook_secondedition-p66-c0", "deepseek_grade": 1, "idx": 28}
+{"query": "`TcpListener::incoming`", "child_id": "rust_ebook-p303-c0", "deepseek_grade": 2, "idx": 29}
+{"query": "How do you take exclusive ownership of `self` in a state machine method by using `mut state` in the function signature?", "child_id": "rustprogramminghandbook-p131-c6", "deepseek_grade": 0, "idx": 30}
+{"query": "where is supervised learning defined", "child_id": "hands-onartificialintelligenceforiot_secondedition-p37-c0", "deepseek_grade": 2, "idx": 31}
+{"query": "Why does my blockchain node keep failing to verify new transactions, and how do I look up which outputs are actually spendable versus already used?", "child_id": "rustforblockchainapplicationdevelopment-p46-c4", "deepseek_grade": 1, "idx": 32}
+{"query": "wasm output pass subcomponents", "child_id": "rustwebprogramming-p136-c1", "deepseek_grade": 1, "idx": 33}
+{"query": "where is the relationship between DL, ML, and AI explained", "child_id": "azureai-102certificationessentials-p2-c0", "deepseek_grade": 2, "idx": 34}
+{"query": "How does Rust eliminate memory errors without runtime garbage collection?", "child_id": "practicalsystemprogrammingforrustdevelopers-p105-c4", "deepseek_grade": 2, "idx": 35}
+{"query": "How do you access a function from a nested folder of related scripts in Python using the dotted path style?", "child_id": "kagglebook_secondedition-p35-c1", "deepseek_grade": 1, "idx": 36}
+{"query": "simd vectorization", "child_id": "rustforcplusplusdeveloper-p106-c0", "deepseek_grade": 2, "idx": 37}
+{"query": "How do you apply a score penalty to graph neighbor chunks during multi-hop retrieval expansion after hybrid search and RRF fusion?", "child_id": "production-rag-guide-p4-c1", "deepseek_grade": 1, "idx": 38}
+{"query": "How do I update my Rocket web handler to process standard HTML form submissions and redirect with a success or error flash message?", "child_id": "rustwebdevelopmentwithrocket-p89-c8", "deepseek_grade": 1, "idx": 39}
+{"query": "How do I get started with the Rust programming language on my machine, including setting up its build system and package manager?", "child_id": "practicalsystemprogrammingforrustdevelopers-p24-c0", "deepseek_grade": 1, "idx": 40}
+{"query": "What are the PyTorch tensor data type aliases for float, double, half, int, and long?", "child_id": "machinelearningwithpytorchandscikit-learn-p206-c0", "deepseek_grade": 0, "idx": 41}
+{"query": "How do I apply to become an author for Packt Publishing?", "child_id": "pandascookbook_thirdedition-p190-c0", "deepseek_grade": 2, "idx": 42}
+{"query": "What security controls for HTTP intermediaries like WAFs, load balancers, or proxies are considered in scope for ASVS requirements?", "child_id": "owasp-developer-guide-p66-c5", "deepseek_grade": 0, "idx": 43}
+{"query": "Why do my top search results get flooded with loosely related content when I try to expand my retrieval by pulling in connected documents from a knowledge graph?", "child_id": "graphmachinelearning_secondedition-p142-c0", "deepseek_grade": 0, "idx": 44}
+{"query": "`kmeans.cluster_centers_`", "child_id": "pythonmachinelearningbyexample_fourthedition-p139-c6", "deepseek_grade": 2, "idx": 45}
+{"query": "Why does my Diffie-Hellman key exchange become insecure if the group generator doesn't generate the entire group?", "child_id": "boneh-shoup-applied-cryptography-p572-c2", "deepseek_grade": 0, "idx": 46}
+{"query": "Why does my Rust state machine method need `mut self` instead of just `self` when transitioning between states, and how does wrapping the state in `Option` help with ownership?", "child_id": "gamedevelopmentwithrustandwebassembly-p82-c2", "deepseek_grade": 1, "idx": 47}
+{"query": "How do NewTypes prevent ID mix-ups in Rust while maintaining runtime performance, and what limitation do they have regarding validity enforcement?", "child_id": "designpatternsandbestpracticesinrust-p159-c0", "deepseek_grade": 1, "idx": 48}
+{"query": "Why does setting my Redis to save to disk on every write slow things down so much, and is there a way to get better durability without that performance hit?", "child_id": "little-redis-book-p15-c3", "deepseek_grade": 1, "idx": 49}
+{"query": "rayon parallel iterators", "child_id": "rustforcplusplusdeveloper-p117-c2", "deepseek_grade": 2, "idx": 50}
+{"query": "How do I save a table with columns like names and birth years into a file and then reload it back into a Python dictionary without losing the list structure?", "child_id": "creativeprojectsforrustprogrammers-p27-c3", "deepseek_grade": 0, "idx": 51}
+{"query": "where is insecure direct object references testing defined", "child_id": "owasp-wstg-v4.2-p71-c0", "deepseek_grade": 1, "idx": 52}
+{"query": "Why does my Rust state machine method need `mut self` instead of just `self` when transitioning between states, and how does wrapping the state in `Option` help with ownership?", "child_id": "gamedevelopmentwithrustandwebassembly-p86-c3", "deepseek_grade": 1, "idx": 53}
+{"query": "Where can I find official security training modules and hands-on coding labs that are included in a well-known open-source security framework, and which organizations provide those courses?", "child_id": "owasp-developer-guide-p17-c2", "deepseek_grade": 2, "idx": 54}
+{"query": "where is the episode end handler and solved game logic defined", "child_id": "hands-onartificialintelligenceforiot_secondedition-p104-c4", "deepseek_grade": 0, "idx": 55}
+{"query": "How good is my initial support vector regression model at explaining the variance in my test data before I start optimizing its settings?", "child_id": "machinelearningwithpytorchandscikit-learn-p36-c4", "deepseek_grade": 0, "idx": 56}
+{"query": "`guard.defer`", "child_id": "hands-onconcurrencywithrust-p146-c0", "deepseek_grade": 2, "idx": 57}
+{"query": "How can I get a list of ready-to-use neural network architectures for classifying images that come bundled with PyTorch, without having to define and train them from scratch?", "child_id": "masteringpytorch_secondedition-p26-c1", "deepseek_grade": 0, "idx": 58}
+{"query": "How do I create a new NEAR account and deploy a contract using the NEAR SDK's async/await and Promises API?", "child_id": "rustforblockchainapplicationdevelopment-p160-c0", "deepseek_grade": 0, "idx": 59}

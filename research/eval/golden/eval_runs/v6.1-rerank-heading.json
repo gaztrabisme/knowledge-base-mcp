@@ -1,0 +1,81 @@
+{
+  "report": {
+    "label": "v6.1-rerank-heading",
+    "n_queries": 201,
+    "aggregate": {
+      "ndcg": 0.9434,
+      "recall10": 0.9751,
+      "mrr": 0.9324,
+      "recall_ceiling": 1.0
+    },
+    "per_domain": {
+      "databases": {
+        "n": 13,
+        "ndcg": 1.0,
+        "recall10": 1.0,
+        "mrr": 1.0,
+        "recall_ceiling": 1.0
+      },
+      "distributed": {
+        "n": 6,
+        "ndcg": 0.9385,
+        "recall10": 1.0,
+        "mrr": 0.9167,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 89,
+        "ndcg": 0.9316,
+        "recall10": 0.9663,
+        "mrr": 0.9195,
+        "recall_ceiling": 1.0
+      },
+      "rust": {
+        "n": 57,
+        "ndcg": 0.9507,
+        "recall10": 0.9825,
+        "mrr": 0.9401,
+        "recall_ceiling": 1.0
+      },
+      "security": {
+        "n": 36,
+        "ndcg": 0.9415,
+        "recall10": 0.9722,
+        "mrr": 0.9306,
+        "recall_ceiling": 1.0
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "How do you compute the policy gradient for a trajectory in REINFORCE by summing the log-probability gradients weighted by the cumulative reward from each time step?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do you compute the policy gradient for a trajectory in REINFORCE by summing the gradient of the log probability of each action multiplied by the total return from that time step?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can an adversary distinguish a Diffie-Hellman tuple from a random tuple when the generator is not a primitive root of the group?",
+      "book": "joy-of-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I apply to become an author for Packt Publishing?",
+      "book": "practicalsystemprogrammingforrustdevelopers",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "What are common mistakes inexperienced Kagglers make that they later wish they had known when starting out?",
+      "book": "kagglebook_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    }
+  ]
+}

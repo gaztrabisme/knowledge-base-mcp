@@ -1,0 +1,37 @@
+[project]
+name = "knowledge-base-mcp"
+version = "0.1.0"
+description = "Local MCP server for hybrid semantic search over your own documents (bring-your-own-corpus RAG for Claude Code)."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [
+    { name = "Gary Tran", email = "tranlehuy.work@gmail.com" },
+]
+dependencies = [
+    "fastmcp>=2.13",
+    "qdrant-client>=1.12",
+    "openai>=1.0",
+    "sentence-transformers>=5.5",
+    "markitdown>=0.1",
+    "fastembed>=0.3",
+    "tiktoken>=0.7",
+    "pymupdf>=1.24",
+]
+
+[project.optional-dependencies]
+eval = [
+    "scipy",
+    "numpy",
+]
+
+[project.scripts]
+kb = "knowledge_base.cli:main"
+kb-server = "knowledge_base.server:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["knowledge_base*"]

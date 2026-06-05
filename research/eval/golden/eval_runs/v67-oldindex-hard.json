@@ -1,0 +1,111 @@
+{
+  "report": {
+    "label": "v67-oldindex-hard",
+    "n_queries": 428,
+    "aggregate": {
+      "ndcg": 0.8137,
+      "recall10": 0.9883,
+      "mrr": 0.9032,
+      "recall_ceiling": 0.9977
+    },
+    "per_domain": {
+      "databases": {
+        "n": 17,
+        "ndcg": 0.8882,
+        "recall10": 1.0,
+        "mrr": 0.9235,
+        "recall_ceiling": 1.0
+      },
+      "distributed": {
+        "n": 7,
+        "ndcg": 0.8618,
+        "recall10": 1.0,
+        "mrr": 0.9048,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 207,
+        "ndcg": 0.828,
+        "recall10": 0.9855,
+        "mrr": 0.9194,
+        "recall_ceiling": 1.0
+      },
+      "rust": {
+        "n": 131,
+        "ndcg": 0.7957,
+        "recall10": 0.9924,
+        "mrr": 0.9058,
+        "recall_ceiling": 0.9924
+      },
+      "security": {
+        "n": 66,
+        "ndcg": 0.7806,
+        "recall10": 0.9848,
+        "mrr": 0.842,
+        "recall_ceiling": 1.0
+      }
+    },
+    "per_archetype": {
+      "baseline": {
+        "n": 200,
+        "ndcg": 0.8014,
+        "recall10": 0.98,
+        "mrr": 0.8753,
+        "recall_ceiling": 0.995
+      },
+      "error_symbol": {
+        "n": 80,
+        "ndcg": 0.8215,
+        "recall10": 1.0,
+        "mrr": 0.9227,
+        "recall_ceiling": 1.0
+      },
+      "keyword": {
+        "n": 78,
+        "ndcg": 0.7909,
+        "recall10": 0.9872,
+        "mrr": 0.9453,
+        "recall_ceiling": 1.0
+      },
+      "navigational": {
+        "n": 70,
+        "ndcg": 0.8655,
+        "recall10": 1.0,
+        "mrr": 0.9139,
+        "recall_ceiling": 1.0
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "Why does my form field lose the user's typed input when the page refreshes, and how do I keep it?",
+      "book": "creativeprojectsforrustprogrammers",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my reinforcement learning model for Atari games keep crashing when I try to use the same image-processing layers for both deciding what action to take and estimating how good the current situation is?",
+      "book": "deepreinforcementlearninghands-on_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does the security proof for a hash function's internal state collision fail when two different inputs end up with the same internal value at the last mixing step, assuming both sequences are as short as possible and don't revisit earlier states?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I save a table with columns like names and birth years into a file and then reload it back into a Python dictionary without losing the list structure?",
+      "book": "pandascookbook_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "ensemble methods random forest stacking",
+      "book": "hands-onmachinelearningwithcplusplus_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    }
+  ]
+}

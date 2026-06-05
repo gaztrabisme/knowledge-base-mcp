@@ -1,0 +1,141 @@
+{
+  "report": {
+    "label": "v6-enriched-hard",
+    "n_queries": 200,
+    "aggregate": {
+      "ndcg": 0.7759,
+      "recall10": 0.925,
+      "mrr": 0.7267,
+      "recall_ceiling": 0.965
+    },
+    "per_domain": {
+      "databases": {
+        "n": 13,
+        "ndcg": 0.8191,
+        "recall10": 0.9231,
+        "mrr": 0.7846,
+        "recall_ceiling": 0.9231
+      },
+      "distributed": {
+        "n": 6,
+        "ndcg": 0.877,
+        "recall10": 1.0,
+        "mrr": 0.8333,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 89,
+        "ndcg": 0.7888,
+        "recall10": 0.9438,
+        "mrr": 0.7383,
+        "recall_ceiling": 0.9551
+      },
+      "rust": {
+        "n": 56,
+        "ndcg": 0.7752,
+        "recall10": 0.9107,
+        "mrr": 0.7304,
+        "recall_ceiling": 0.9643
+      },
+      "security": {
+        "n": 36,
+        "ndcg": 0.7126,
+        "recall10": 0.8889,
+        "mrr": 0.6537,
+        "recall_ceiling": 1.0
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "Why does my reinforcement learning agent's update rule involve multiplying the log probability of each action by the total reward collected from that point onward, and then adding those together?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my secure messaging handshake fail after I decrypt the first message, even though the certificate chain looks okay?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I prevent an attacker from tricking my app into using their stolen login token instead of the real user's token when the browser redirects back to my site?",
+      "book": "oauth-rfcs-book",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "What kind of throughput and response times can I expect from a production-grade in-memory data store when running with full transaction safety guarantees?",
+      "book": "redis-for-dummies",
+      "domain": "databases",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I evaluate my binary classifier's accuracy when I care more about catching true positives versus avoiding false positives, and get a single combined metric?",
+      "book": "pythonmachinelearningbyexample_fourthedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can a time series forecasting model be designed to separate long-term direction from repeating patterns, so you can see exactly what part of the prediction comes from each?",
+      "book": "moderntimeseriesforecastingwithpython_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do you handle object creation in Rust when you want to avoid exposing constructors directly, like using a static method on a type instead of a standalone function?",
+      "book": "designpatternsandbestpracticesinrust",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my Diffie-Hellman key exchange become insecure if the group generator doesn't generate the entire group?",
+      "book": "joy-of-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I split my Rust project across multiple files and control which functions or structs are accessible from other parts of my codebase?",
+      "book": "rustprogramminghandbook",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "How many data points are typically sampled to keep the nearest neighbor calculations from being too expensive when measuring how much two features share?",
+      "book": "machinelearningforalgorithmictradingsecondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why can't I just rely on my model's accuracy on the data I trained it on, and how do I actually check if it will work on new, unseen examples?",
+      "book": "graphmachinelearning_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does Rust manage memory safely without needing a garbage collector or reference counting at runtime?",
+      "book": "rustforblockchainapplicationdevelopment",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my Rust function that prints struct fields not need to take ownership, and how do I pass a read-only reference to avoid modifying the original data?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How can I stop attackers from using encoded dot-dot-slash sequences (like double-encoded path traversal) to escape my web app's directory restrictions when dealing with Unicode or special character sets?",
+      "book": "owasp-developer-guide",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I make the server force a user's browser to log out by sending back a page that automatically clears their session token and redirects them?",
+      "book": "rustwebprogramming",
+      "domain": "rust",
+      "in_ceiling": false
+    }
+  ]
+}

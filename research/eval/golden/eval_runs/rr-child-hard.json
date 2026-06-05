@@ -1,0 +1,141 @@
+{
+  "report": {
+    "label": "rr-child-hard",
+    "n_queries": 200,
+    "aggregate": {
+      "ndcg": 0.7887,
+      "recall10": 0.925,
+      "mrr": 0.7441,
+      "recall_ceiling": 0.96
+    },
+    "per_domain": {
+      "databases": {
+        "n": 13,
+        "ndcg": 0.8475,
+        "recall10": 0.9231,
+        "mrr": 0.8231,
+        "recall_ceiling": 1.0
+      },
+      "distributed": {
+        "n": 6,
+        "ndcg": 0.8333,
+        "recall10": 0.8333,
+        "mrr": 0.8333,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 89,
+        "ndcg": 0.7807,
+        "recall10": 0.9438,
+        "mrr": 0.727,
+        "recall_ceiling": 0.9663
+      },
+      "rust": {
+        "n": 56,
+        "ndcg": 0.7929,
+        "recall10": 0.9107,
+        "mrr": 0.7546,
+        "recall_ceiling": 0.9464
+      },
+      "security": {
+        "n": 36,
+        "ndcg": 0.7731,
+        "recall10": 0.9167,
+        "mrr": 0.7265,
+        "recall_ceiling": 0.9444
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "Why does my reinforcement learning agent's update rule involve multiplying the log probability of each action by the total reward collected from that point onward, and then adding those together?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my form field lose the user's typed input when the page refreshes, and how do I keep it?",
+      "book": "creativeprojectsforrustprogrammers",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I prevent an attacker from tricking my app into using their stolen login token instead of the real user's token when the browser redirects back to my site?",
+      "book": "oauth-rfcs-book",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "What kind of throughput and response times can I expect from a production-grade in-memory data store when running with full transaction safety guarantees?",
+      "book": "redis-for-dummies",
+      "domain": "databases",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I evaluate my binary classifier's accuracy when I care more about catching true positives versus avoiding false positives, and get a single combined metric?",
+      "book": "pythonmachinelearningbyexample_fourthedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I reduce the public key size in a Lamport one-time signature scheme without sacrificing security?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my lock-free stack implementation hang when I try to register a new thread-local safe memory reclamation handle with the shared coordinator?",
+      "book": "hands-onconcurrencywithrust",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why can't I just rely on my model's accuracy on the data I trained it on, and how do I actually check if it will work on new, unseen examples?",
+      "book": "graphmachinelearning_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does a long-running computation inside an async function freeze my entire web server and stop it from accepting new connections?",
+      "book": "asynchronousprogramminginrust",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my Rust code compile fine when I pass two references to a function that returns one of them, but I get confused about how long those references need to stay alive?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does adding just one more cache server sometimes cause almost all of my cached data to become invalid or need to be remapped, and how can I avoid that massive redistribution?",
+      "book": "designing-distributed-systems",
+      "domain": "distributed",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I take the subject matter from one photo and apply the artistic look or texture from another photo to create a new image?",
+      "book": "masteringpytorch_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does the security proof for a hash function's internal state collision fail when two different inputs end up with the same internal value at the last mixing step, assuming both sequences are as short as possible and don't revisit earlier states?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my Rust function that prints struct fields not need to take ownership, and how do I pass a read-only reference to avoid modifying the original data?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I save a table with columns like names and birth years into a file and then reload it back into a Python dictionary without losing the list structure?",
+      "book": "pandascookbook_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    }
+  ]
+}

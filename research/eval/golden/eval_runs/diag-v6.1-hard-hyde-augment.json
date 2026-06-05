@@ -1,0 +1,165 @@
+{
+  "report": {
+    "label": "diag-v6.1-hard-hyde-augment",
+    "n_queries": 200,
+    "aggregate": {
+      "ndcg": 0.7809,
+      "recall10": 0.905,
+      "mrr": 0.74,
+      "recall_ceiling": 0.955
+    },
+    "per_domain": {
+      "databases": {
+        "n": 13,
+        "ndcg": 0.8037,
+        "recall10": 0.9231,
+        "mrr": 0.7654,
+        "recall_ceiling": 1.0
+      },
+      "distributed": {
+        "n": 6,
+        "ndcg": 0.7718,
+        "recall10": 0.8333,
+        "mrr": 0.75,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 89,
+        "ndcg": 0.798,
+        "recall10": 0.9326,
+        "mrr": 0.7539,
+        "recall_ceiling": 0.9775
+      },
+      "rust": {
+        "n": 56,
+        "ndcg": 0.7812,
+        "recall10": 0.8929,
+        "mrr": 0.7446,
+        "recall_ceiling": 0.9107
+      },
+      "security": {
+        "n": 36,
+        "ndcg": 0.7315,
+        "recall10": 0.8611,
+        "mrr": 0.6875,
+        "recall_ceiling": 0.9444
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "Why does my reinforcement learning agent's update rule involve multiplying the log probability of each action by the total reward collected from that point onward, and then adding those together?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my secure messaging handshake fail after I decrypt the first message, even though the certificate chain looks okay?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why do some language models only look at left-to-right context while others use both directions, and how does that change what they’re good at after you train them on a generic text corpus?",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my form field lose the user's typed input when the page refreshes, and how do I keep it?",
+      "book": "creativeprojectsforrustprogrammers",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I prevent an attacker from tricking my app into using their stolen login token instead of the real user's token when the browser redirects back to my site?",
+      "book": "oauth-rfcs-book",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "What kind of throughput and response times can I expect from a production-grade in-memory data store when running with full transaction safety guarantees?",
+      "book": "redis-for-dummies",
+      "domain": "databases",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I reduce the public key size in a Lamport one-time signature scheme without sacrificing security?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my Diffie-Hellman key exchange become insecure if the group generator doesn't generate the entire group?",
+      "book": "joy-of-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why can't I just rely on my model's accuracy on the data I trained it on, and how do I actually check if it will work on new, unseen examples?",
+      "book": "graphmachinelearning_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does a long-running computation inside an async function freeze my entire web server and stop it from accepting new connections?",
+      "book": "asynchronousprogramminginrust",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my reinforcement learning model for Atari games keep crashing when I try to use the same image-processing layers for both deciding what action to take and estimating how good the current situation is?",
+      "book": "deepreinforcementlearninghands-on_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my Rust code compile fine when I pass two references to a function that returns one of them, but I get confused about how long those references need to stay alive?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does adding just one more cache server sometimes cause almost all of my cached data to become invalid or need to be remapped, and how can I avoid that massive redistribution?",
+      "book": "designing-distributed-systems",
+      "domain": "distributed",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does the security proof for a hash function's internal state collision fail when two different inputs end up with the same internal value at the last mixing step, assuming both sequences are as short as possible and don't revisit earlier states?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why would it be bad to have my async code start running immediately when I create it, instead of waiting until I actually await it?",
+      "book": "asynchronousprogramminginrust",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why do the preprocessing layers I apply to my game environment sometimes slow down training or prevent my agent from learning properly?",
+      "book": "deepreinforcementlearninghands-on_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does my Rust function that prints struct fields not need to take ownership, and how do I pass a read-only reference to avoid modifying the original data?",
+      "book": "rust_ebook",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I save a table with columns like names and birth years into a file and then reload it back into a Python dictionary without losing the list structure?",
+      "book": "pandascookbook_thirdedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How can I make the server force a user's browser to log out by sending back a page that automatically clears their session token and redirects them?",
+      "book": "rustwebprogramming",
+      "domain": "rust",
+      "in_ceiling": false
+    }
+  ]
+}

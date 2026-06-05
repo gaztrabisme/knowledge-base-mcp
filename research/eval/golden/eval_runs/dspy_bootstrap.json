@@ -1,0 +1,7 @@
+{
+  "pool": 800,
+  "train": 20,
+  "dev": 40,
+  "baseline_ndcg": 0.9723,
+  "bootstrap_ndcg": 1.0
+}

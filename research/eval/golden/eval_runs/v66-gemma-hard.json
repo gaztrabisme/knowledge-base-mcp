@@ -1,0 +1,147 @@
+{
+  "report": {
+    "label": "v66-gemma-hard",
+    "n_queries": 440,
+    "aggregate": {
+      "ndcg": 0.7833,
+      "recall10": 0.975,
+      "mrr": 0.8753,
+      "recall_ceiling": 0.9818
+    },
+    "per_domain": {
+      "databases": {
+        "n": 17,
+        "ndcg": 0.8667,
+        "recall10": 1.0,
+        "mrr": 0.8941,
+        "recall_ceiling": 1.0
+      },
+      "distributed": {
+        "n": 7,
+        "ndcg": 0.8636,
+        "recall10": 1.0,
+        "mrr": 0.9048,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 216,
+        "ndcg": 0.7968,
+        "recall10": 0.9769,
+        "mrr": 0.8893,
+        "recall_ceiling": 0.9815
+      },
+      "rust": {
+        "n": 134,
+        "ndcg": 0.7582,
+        "recall10": 0.9701,
+        "mrr": 0.8739,
+        "recall_ceiling": 0.9776
+      },
+      "security": {
+        "n": 66,
+        "ndcg": 0.7598,
+        "recall10": 0.9697,
+        "mrr": 0.8244,
+        "recall_ceiling": 0.9848
+      }
+    },
+    "per_archetype": {
+      "baseline": {
+        "n": 200,
+        "ndcg": 0.7686,
+        "recall10": 0.96,
+        "mrr": 0.8451,
+        "recall_ceiling": 0.97
+      },
+      "error_symbol": {
+        "n": 80,
+        "ndcg": 0.823,
+        "recall10": 1.0,
+        "mrr": 0.9223,
+        "recall_ceiling": 1.0
+      },
+      "keyword": {
+        "n": 80,
+        "ndcg": 0.784,
+        "recall10": 1.0,
+        "mrr": 0.9457,
+        "recall_ceiling": 1.0
+      },
+      "navigational": {
+        "n": 80,
+        "ndcg": 0.7795,
+        "recall10": 0.9625,
+        "mrr": 0.8332,
+        "recall_ceiling": 0.975
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "Why does my form field lose the user's typed input when the page refreshes, and how do I keep it?",
+      "book": "creativeprojectsforrustprogrammers",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How can someone figure out a hidden string one character at a time if they can make a system encrypt their own input placed right before that secret, and compare the encrypted outputs?",
+      "book": "crypto-101",
+      "domain": "security",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my machine learning model get slower to make predictions the more training data I add, even though it's great at adapting to new examples?",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my reinforcement learning model for Atari games keep crashing when I try to use the same image-processing layers for both deciding what action to take and estimating how good the current situation is?",
+      "book": "deepreinforcementlearninghands-on_thirdedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "Why does my Rust WASM function that returns either a success or error JavaScript value still fail to compile when I use the `?` operator everywhere, even though I've set up the return type correctly?",
+      "book": "gamedevelopmentwithrustandwebassembly",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why does the security proof for a hash function's internal state collision fail when two different inputs end up with the same internal value at the last mixing step, assuming both sequences are as short as possible and don't revisit earlier states?",
+      "book": "boneh-shoup-applied-cryptography",
+      "domain": "security",
+      "in_ceiling": true
+    },
+    {
+      "query": "Why would it be bad to have my async code start running immediately when I create it, instead of waiting until I actually await it?",
+      "book": "asynchronousprogramminginrust",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do I save a table with columns like names and birth years into a file and then reload it back into a Python dictionary without losing the list structure?",
+      "book": "pandascookbook_thirdedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "where is the collider section",
+      "book": "causalinferenceanddiscoveryinpython",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "where is coroutines defined",
+      "book": "asynchronousprogramminginrust",
+      "domain": "rust",
+      "in_ceiling": false
+    },
+    {
+      "query": "where is the index for dot product",
+      "book": "machinelearningwithpytorchandscikit-learn",
+      "domain": "ml",
+      "in_ceiling": false
+    }
+  ]
+}

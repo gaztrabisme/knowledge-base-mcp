@@ -1,0 +1,75 @@
+{
+  "report": {
+    "label": "emb-gemma-easy",
+    "n_queries": 201,
+    "aggregate": {
+      "ndcg": 0.9394,
+      "recall10": 0.9801,
+      "mrr": 0.9255,
+      "recall_ceiling": 0.995
+    },
+    "per_domain": {
+      "databases": {
+        "n": 13,
+        "ndcg": 1.0,
+        "recall10": 1.0,
+        "mrr": 1.0,
+        "recall_ceiling": 1.0
+      },
+      "distributed": {
+        "n": 6,
+        "ndcg": 0.877,
+        "recall10": 1.0,
+        "mrr": 0.8333,
+        "recall_ceiling": 1.0
+      },
+      "ml": {
+        "n": 89,
+        "ndcg": 0.9316,
+        "recall10": 0.9663,
+        "mrr": 0.9195,
+        "recall_ceiling": 0.9888
+      },
+      "rust": {
+        "n": 57,
+        "ndcg": 0.9507,
+        "recall10": 0.9825,
+        "mrr": 0.9401,
+        "recall_ceiling": 1.0
+      },
+      "security": {
+        "n": 36,
+        "ndcg": 0.9293,
+        "recall10": 1.0,
+        "mrr": 0.9059,
+        "recall_ceiling": 1.0
+      }
+    }
+  },
+  "misses": [
+    {
+      "query": "How do you compute the policy gradient for a trajectory in REINFORCE by summing the log-probability gradients weighted by the cumulative reward from each time step?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": false
+    },
+    {
+      "query": "How do you compute the policy gradient for a trajectory in REINFORCE by summing the gradient of the log probability of each action multiplied by the total return from that time step?",
+      "book": "hands-onartificialintelligenceforiot_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    },
+    {
+      "query": "How do I apply to become an author for Packt Publishing?",
+      "book": "practicalsystemprogrammingforrustdevelopers",
+      "domain": "rust",
+      "in_ceiling": true
+    },
+    {
+      "query": "What are common mistakes inexperienced Kagglers make that they later wish they had known when starting out?",
+      "book": "kagglebook_secondedition",
+      "domain": "ml",
+      "in_ceiling": true
+    }
+  ]
+}

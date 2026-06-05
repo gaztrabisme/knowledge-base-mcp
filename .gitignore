@@ -1,0 +1,27 @@
+# Source documents and the built index are intentionally NOT version-controlled.
+# Bring your own corpus; never commit copyrighted books to a public repo.
+data/
+*.epub
+*.pdf
+*.mobi
+*.azw3
+
+# Vector store / model caches
+qdrant/
+.cache/
+*.onnx
+
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+.ruff_cache/
+
+# OS / editor
+.DS_Store

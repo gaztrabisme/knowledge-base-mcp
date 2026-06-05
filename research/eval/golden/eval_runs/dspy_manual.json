@@ -1,0 +1,11 @@
+{
+  "pool": 800,
+  "dev": 100,
+  "hardneg": 4,
+  "scores": {
+    "baseline": 0.9615,
+    "query-anticipation": 0.9676,
+    "entity-dense": 0.9461,
+    "problem-symptom": 0.9678
+  }
+}

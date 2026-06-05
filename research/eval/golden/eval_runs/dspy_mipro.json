@@ -1,0 +1,8 @@
+{
+  "pool": 800,
+  "train": 60,
+  "dev": 100,
+  "auto": "light",
+  "baseline_ndcg": 0.9615,
+  "mipro_ndcg": 0.9615
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "q": "Why does my secure messaging handshake fail after I decrypt the first message, even though the certificate chain looks okay?",
+    "domain": "security",
+    "book": "boneh-shoup-applied-cryptography",
+    "fusion_rank": 43,
+    "rerank_rank_heading": 12,
+    "rerank_rank_child": 9,
+    "pos_score": 7.09483003616333,
+    "cut10_score": 7.173533916473389
+  },
+  {
+    "q": "Why do some language models only look at left-to-right context while others use both directions, and how does that change what they\u2019re good at after you train them on a generic text corpus?",
+    "domain": "ml",
+    "book": "machinelearningwithpytorchandscikit-learn",
+    "fusion_rank": 19,
+    "rerank_rank_heading": 11,
+    "rerank_rank_child": 9,
+    "pos_score": 7.825857639312744,
+    "cut10_score": 7.894947528839111
+  },
+  {
+    "q": "How do I prevent an attacker from tricking my app into using their stolen login token instead of the real user's token when the browser redirects back to my site?",
+    "domain": "security",
+    "book": "oauth-rfcs-book",
+    "fusion_rank": 30,
+    "rerank_rank_heading": 19,
+    "rerank_rank_child": 17,
+    "pos_score": 8.883837699890137,
+    "cut10_score": 9.30833911895752
+  },
+  {
+    "q": "What kind of throughput and response times can I expect from a production-grade in-memory data store when running with full transaction safety guarantees?",
+    "domain": "databases",
+    "book": "redis-for-dummies",
+    "fusion_rank": 32,
+    "rerank_rank_heading": 28,
+    "rerank_rank_child": 22,
+    "pos_score": 4.219690322875977,
+    "cut10_score": 5.330084323883057
+  },
+  {
+    "q": "Why does my Diffie-Hellman key exchange become insecure if the group generator doesn't generate the entire group?",
+    "domain": "security",
+    "book": "joy-of-cryptography",
+    "fusion_rank": 6,
+    "rerank_rank_heading": 23,
+    "rerank_rank_child": 9,
+    "pos_score": 7.503593921661377,
+    "cut10_score": 8.093330383300781
+  },
+  {
+    "q": "Why does my reinforcement learning model for Atari games keep crashing when I try to use the same image-processing layers for both deciding what action to take and estimating how good the current situation is?",
+    "domain": "ml",
+    "book": "deepreinforcementlearninghands-on_thirdedition",
+    "fusion_rank": 17,
+    "rerank_rank_heading": 20,
+    "rerank_rank_child": 10,
+    "pos_score": 6.61708402633667,
+    "cut10_score": 7.361243724822998
+  },
+  {
+    "q": "Why does adding just one more cache server sometimes cause almost all of my cached data to become invalid or need to be remapped, and how can I avoid that massive redistribution?",
+    "domain": "distributed",
+    "book": "designing-distributed-systems",
+    "fusion_rank": 38,
+    "rerank_rank_heading": 17,
+    "rerank_rank_child": 21,
+    "pos_score": 6.482316493988037,
+    "cut10_score": 7.237349987030029
+  },
+  {
+    "q": "How do I save a table with columns like names and birth years into a file and then reload it back into a Python dictionary without losing the list structure?",
+    "domain": "ml",
+    "book": "pandascookbook_thirdedition",
+    "fusion_rank": 14,
+    "rerank_rank_heading": 28,
+    "rerank_rank_child": 23,
+    "pos_score": 5.923201084136963,
+    "cut10_score": 7.287414073944092
+  }
+]

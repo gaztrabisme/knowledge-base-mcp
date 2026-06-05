@@ -1,0 +1,33 @@
+{
+  "n": 200,
+  "per_query_ndcg_mean": 0.8021,
+  "per_query_ndcg_std": 0.3111,
+  "v63_rejected_gap": 0.012,
+  "mde_at_80pct_power_by_rho": {
+    "0.0": {
+      "sigma_delta": 0.4399,
+      "mde_ndcg": 0.0871,
+      "detects_0.012": false
+    },
+    "0.5": {
+      "sigma_delta": 0.3111,
+      "mde_ndcg": 0.0616,
+      "detects_0.012": false
+    },
+    "0.7": {
+      "sigma_delta": 0.2409,
+      "mde_ndcg": 0.0477,
+      "detects_0.012": false
+    },
+    "0.9": {
+      "sigma_delta": 0.1391,
+      "mde_ndcg": 0.0276,
+      "detects_0.012": false
+    },
+    "0.95": {
+      "sigma_delta": 0.0984,
+      "mde_ndcg": 0.0195,
+      "detects_0.012": false
+    }
+  }
+}

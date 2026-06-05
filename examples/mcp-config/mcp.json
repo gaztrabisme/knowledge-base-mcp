@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "knowledge-base-uvx": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/gaztrabisme/knowledge-base-mcp",
+        "kb",
+        "serve"
+      ],
+      "env": {
+        "KB_DATA_DIR": "/absolute/path/to/kb-data",
+        "KB_DEVICE": "auto"
+      }
+    },
+    "knowledge-base-dev": {
+      "command": "kb",
+      "args": ["serve"],
+      "env": {
+        "KB_DATA_DIR": "/absolute/path/to/kb-data"
+      }
+    }
+  }
+}

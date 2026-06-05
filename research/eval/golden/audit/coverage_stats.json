@@ -1,0 +1,40 @@
+{
+  "n_hard": 200,
+  "n_easy": 201,
+  "domains": {
+    "rust": 56,
+    "security": 36,
+    "distributed": 6,
+    "ml": 89,
+    "databases": 13
+  },
+  "domain_balance_min_max": [
+    6,
+    89
+  ],
+  "books_represented": 46,
+  "books_in_corpus": 46,
+  "books_missing_from_gate": 0,
+  "book_query_counts_min_max_median": [
+    2,
+    14,
+    4
+  ],
+  "query_char_len": {
+    "min": 86,
+    "median": 157,
+    "max": 291
+  },
+  "query_word_len": {
+    "min": 15,
+    "median": 27,
+    "max": 46
+  },
+  "queries_with_multiple_positives": 0,
+  "queries_with_hard_negatives": 0,
+  "single_positive_pct": 100.0,
+  "avg_query_source_vocab_overlap": {
+    "hard": 0.3142,
+    "easy": 0.6497
+  }
+}
