@@ -25,6 +25,26 @@ with a paired significance harness so changes are accepted only when they beat n
   stripped** (queries, chunk-id labels, grades, and metrics are retained), so it is
   illustrative of the methodology but not reproducible without the original corpus.
 
+## `notes/` — findings & decision log
+
+The narrative behind the defaults — *why* each knob is set the way it is. This is the
+most useful part to read if you want to understand or tune the pipeline:
+
+- `decisions.md` — every technical decision with its context, the rejected alternatives,
+  and post-mortems on reverted directions (enrichment, late-chunking, embedder swaps).
+- `gate-audit.md` — a rigorous audit of the evaluation gate itself (statistical power,
+  label completeness, query realism) — how the benchmark was validated before trusting it.
+- `rag-frontier-2026.md` — a survey of current retrieval techniques mapped onto this system.
+- `architecture.md` — pipeline design and data flow.
+- `dspy-enrichment-plan.md` — the contextual-enrichment experiment (and why it was dropped).
+- `gotchas.md` — failure patterns and watch-fors.
+- `ops-runbook.md` — the author's remote-GPU indexing/enrichment workflow (host/IP
+  identifiers scrubbed to `<gpu-host>` placeholders; adapt to your own box).
+- `index.md` — catalog of the above.
+
+These are historical lab notes for a specific 56-book corpus; figures and version numbers
+refer to that corpus, not to anything you build with the tool.
+
 ## `experiments/` — one-off investigations
 
 GPU sweeps, tokenizer/cutoff calibration, PDF-heading extraction comparisons, reranker
